@@ -1,20 +1,62 @@
 aid: adim
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/adim.png
 name: Adim
-description: Adim is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Adim is an entertainment-technology and web3 media company co-founded in
+  2022 by It's Always Sunny in Philadelphia creator Rob McElhenney alongside Richard
+  Rosenblatt, Chase Rosenblatt, Melissa Kaspers, and Spencer Marell. Adim invites a
+  community of storytellers, writers, and fans to collaboratively create, develop,
+  and co-own a new generation of intellectual property — stories, characters, and narrative
+  universes known as the Adimverse — rewarding contributors with ownership stakes and
+  a say in how the community is governed. The company raised a $5M seed round led by
+  Chris Dixon of a16z crypto. Adim is a consumer creative platform rather than an API
+  provider; it publishes no public developer API, SDK, or documentation surface as of
+  this enrichment pass.
 url: https://raw.githubusercontent.com/api-evangelist/adim/refs/heads/main/apis.yml
 x-type: company
 x-source: a16z-portfolio
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-provider: false
+x-api-provider-reason: Consumer web3 media/IP platform; no public developer API, SDK,
+  OpenAPI, or documentation surface found during enrichment (2026-07-17).
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Entertainment
+- Media
+- Web3
+- Intellectual Property
+- Content Creation
+- Storytelling
+- a16z Portfolio
 apis: []
+common:
+- type: Website
+  url: https://www.adimverse.com
+- type: Blog
+  url: https://adimverse.substack.com/
+- type: X
+  url: https://x.com/Adimverse
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
